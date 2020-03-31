@@ -1,7 +1,9 @@
 from facebook_business.adobjects.adspixel import AdsPixel
 from facebook_business.api import FacebookAdsApi
 
-from secrets import *
+from secrets_store import *
+
+FacebookAdsApi.init(access_token=access_token)
 
 fields = [
 ]
@@ -10,7 +12,7 @@ params = {
     "data": [
         {
             "event_name": "Purchase",
-            "event_time": 1585640728,
+            "event_time": 1586611489,
             "event_id": "event.id.90763767",
             "event_source_url": "http:\/\/jaspers-market.com\/product\/123",
             "user_data": {
@@ -44,6 +46,6 @@ print(func_call)
 # Output:
 # <AdsPixel> {
 #     "events_received": 1,
-#     "fbtrace_id": "AzDc726cCmCAVu5bnFrmqaR",
+#     "fbtrace_id": "AhZex4M7cOQtj-zvlyDsHFi",
 #     "messages": []
 # }

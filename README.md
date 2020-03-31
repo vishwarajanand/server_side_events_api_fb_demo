@@ -23,9 +23,12 @@ python3 send_events.py
 Demo previews below:
 
 ## 1. S2S API Design
-![S2S API Design Diagram](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/s2s%20API%20design.png "S2S design")
+![S2S API Design Diagram](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/demos/s2s_api_design.png "S2S design")
 
 ## 2. S2S API Events Manager flow
-![S2S API Events Manager flow](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/events_manager_demo.png "Events Manager Flow")
+![S2S API Events Manager flow](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/demos/events_manager_demo.png "Events Manager Flow")
+
+## 3. S2S Script Sample Output
+![S2S API call output](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/demos/s2s_script_output.png "S2S API call output")
 
 

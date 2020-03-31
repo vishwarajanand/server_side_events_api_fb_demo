@@ -7,7 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
-secrets.py
+secrets_store.py
 .Python
 build/
 develop-eggs/
