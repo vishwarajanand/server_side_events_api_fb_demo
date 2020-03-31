@@ -20,10 +20,12 @@ python3 send_events.py
 ```
 # Previews
 
-## S2S API Design
+Demo previews below:
+
+## 1. S2S API Design
 ![S2S API Design Diagram](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/s2s%20API%20design.png "S2S design")
 
-## S2S API Events Manager flow
+## 2. S2S API Events Manager flow
 ![S2S API Events Manager flow](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/events_manager_demo.png "Events Manager Flow")
 
 
