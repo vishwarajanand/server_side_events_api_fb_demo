@@ -12,7 +12,7 @@ params = {
     "data": [
         {
             "event_name": "Purchase",
-            "event_time": 1586611489,
+            "event_time": 1598927035,
             "event_id": "event.id.90763767",
             "event_source_url": "http:\/\/jaspers-market.com\/product\/123",
             "user_data": {
@@ -33,9 +33,12 @@ params = {
             "opt_out": False
         }
     ],
-    "test_event_code": "TEST76025"
+    "test_event_code": test_event_code
     # to see events in events manager's test live events tool
 }
+if len(test_event_code)>0:
+    params["test_event_code"] = test_event_code
+
 func_call = AdsPixel(pixel_id).create_event(
     fields=fields,
     params=params,
@@ -49,3 +52,7 @@ print(func_call)
 #     "fbtrace_id": "AhZex4M7cOQtj-zvlyDsHFi",
 #     "messages": []
 # }
+
+# Check events here:
+# https://business.facebook.com/events_manager2/list/pixel/775789439185095/test_events?business_id=678421698924531&act=299446816894080
+
