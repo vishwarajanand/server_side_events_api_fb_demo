@@ -4,6 +4,7 @@
     <list default="true" id="9f4f298c-cb61-46a5-bc93-4292d00012da" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/s2s_demo.py" beforeDir="false" afterPath="$PROJECT_DIR$/s2s_demo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/secrets_store.py" beforeDir="false" afterPath="$PROJECT_DIR$/secrets_store.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,11 +35,11 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demos" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,22 +111,34 @@
     </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1379" height="266" key="GridCell.Tab.0.bottom" timestamp="1598929817045">
+    <state x="1985" y="127" key="CommitChangelistDialog2" timestamp="1599116747527">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="266" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1598929817045" />
-    <state width="1379" height="266" key="GridCell.Tab.0.center" timestamp="1598929817044">
+    <state x="1985" y="127" key="CommitChangelistDialog2/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1599116747527" />
+    <state width="1364" height="222" key="GridCell.Tab.0.bottom" timestamp="1599122002352">
+      <screen x="1680" y="23" width="1920" height="992" />
+    </state>
+    <state width="1364" height="287" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1599117370098" />
+    <state width="1364" height="222" key="GridCell.Tab.0.bottom/1680.23.1920.992/0.23.1680.1027@1680.23.1920.992" timestamp="1599122002352" />
+    <state width="1364" height="222" key="GridCell.Tab.0.center" timestamp="1599122002350">
+      <screen x="1680" y="23" width="1920" height="992" />
+    </state>
+    <state width="1364" height="287" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1599117370096" />
+    <state width="1364" height="222" key="GridCell.Tab.0.center/1680.23.1920.992/0.23.1680.1027@1680.23.1920.992" timestamp="1599122002350" />
+    <state width="1364" height="222" key="GridCell.Tab.0.left" timestamp="1599122002350">
+      <screen x="1680" y="23" width="1920" height="992" />
+    </state>
+    <state width="1364" height="287" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1599117370096" />
+    <state width="1364" height="222" key="GridCell.Tab.0.left/1680.23.1920.992/0.23.1680.1027@1680.23.1920.992" timestamp="1599122002350" />
+    <state width="1364" height="222" key="GridCell.Tab.0.right" timestamp="1599122002351">
+      <screen x="1680" y="23" width="1920" height="992" />
+    </state>
+    <state width="1364" height="287" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1599117370097" />
+    <state width="1364" height="222" key="GridCell.Tab.0.right/1680.23.1920.992/0.23.1680.1027@1680.23.1920.992" timestamp="1599122002351" />
+    <state x="2537" y="261" key="RollbackChangesDialog" timestamp="1599117455626">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
-    <state width="1379" height="266" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1598929817044" />
-    <state width="1379" height="266" key="GridCell.Tab.0.left" timestamp="1598929817044">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1379" height="266" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1598929817044" />
-    <state width="1379" height="266" key="GridCell.Tab.0.right" timestamp="1598929817045">
-      <screen x="1680" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1379" height="266" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1598929817045" />
+    <state x="2537" y="261" key="RollbackChangesDialog/1680.23.1920.1057/0.23.1680.962@1680.23.1920.1057" timestamp="1599117455626" />
     <state x="2146" y="187" key="SettingsEditor" timestamp="1598928743708">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
@@ -136,7 +149,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s_demo.py</url>
-          <line>45</line>
+          <line>47</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
@@ -146,7 +159,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s2s_demo.py</url>
-          <line>50</line>
+          <line>52</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

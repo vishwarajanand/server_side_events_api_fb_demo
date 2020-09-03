@@ -15,7 +15,7 @@ params = {
             "event_name": "Purchase",
             # Unix timestamp example: 1598927035
             "event_time": int(time.time()),
-            "event_id": "event.id.1234",
+            "event_id": test_event_id,
             "event_source_url": "http://jaspers-market.com/product/some_product_url",
             "user_data": {
                 "client_ip_address": "2620:10d:c094:200::1:9c87",
@@ -32,12 +32,14 @@ params = {
                 ],
                 "content_type": "product"
             },
+            "data_processing_options": [],
             "opt_out": False
         }
     ],
     "test_event_code": test_event_code
     # to see events in events manager's test live events tool
 }
+
 if len(test_event_code) > 0:
     params["test_event_code"] = test_event_code
 
