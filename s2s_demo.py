@@ -59,3 +59,5 @@ print(func_call)
 
 # Check events here:
 # https://business.facebook.com/events_manager2/list/pixel/775789439185095/test_events?business_id=678421698924531&act=299446816894080
+# API doc here:
+# https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api
