@@ -15,7 +15,7 @@ params = {
             "event_name": "Purchase",
             # Unix timestamp example: 1598927035
             "event_time": int(time.time()),
-            "event_id": test_event_id,
+            "event_id": 'event.id.12346',
             "event_source_url": "http://jaspers-market.com/product/some_product_url",
             "user_data": {
                 "client_ip_address": "2620:10d:c094:200::1:9c87",
@@ -36,8 +36,8 @@ params = {
             "opt_out": False
         }
     ],
-    "test_event_code": test_event_code
     # to see events in events manager's test live events tool
+    "test_event_code": test_event_code
 }
 
 if len(test_event_code) > 0:
@@ -58,6 +58,7 @@ print(func_call)
 # }
 
 # Check events here:
-# https://business.facebook.com/events_manager2/list/pixel/775789439185095/test_events?business_id=678421698924531&act=299446816894080
+# https://business.facebook.com/events_manager2/list/pixel/351725288935559/test_events?business_id=269028820483935&act=288563226
+
 # API doc here:
-# https://developers.facebook.com/docs/marketing-api/conversions-api/using-the-api
+# https://developers.facebook.com/docs/marketing-api/conversions-api/guides/end-to-end-implementation
