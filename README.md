@@ -1,22 +1,25 @@
 # Demo for the Server Side event stack from Facebook
 
-Python SDK is listed [here](https://github.com/facebook/facebook-python-business-sdk) and Server side events API is listed [here](https://developers.facebook.com/docs/marketing-api/server-side-api).
+Python SDK is listed [here](https://github.com/facebook/facebook-python-business-sdk) and Server side FB events API is listed [here](https://developers.facebook.com/docs/marketing-api/server-side-api).
 
 # Steps to launch demo
 
-1. Create a folder
+1. Copy `secrets_store_sample.py` into `secrets_store.py`.
 
-2. Paste contents as below in send_events.py:
+2. Edit all variable especially `access_token`, `app_id`, `app_secret` and `pixel_id`.
 
-3. Change `secrets.py` file with `access_token`, `app_id`, `app_secret` and `pixel_id`.
-
-4. Run the following commands:
+3. Install FB Business SDK:
 
 ```
 virtualenv venv
 source venv/bin/activate
 pip install facebook_business
-python3 send_events.py
+```
+
+4. Run the following commands:
+
+```
+python3 s2s_demo.py
 ```
 # Previews
 
@@ -30,5 +33,3 @@ Demo previews below:
 
 ## 3. S2S Script Sample Output
 ![S2S API call output](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/demos/s2s_script_output.png "S2S API call output")
-
-
