@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Server to Server FB Events Demo using JS
+    </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Server to Server FB Events Demo using JS</h1>
+    <p>Look at source or inspect the DOM to see how it works.</p>
+    <script>
+        $(document).ready(function () {
+            $.ajaxSetup({ cache: true });
+            $.getScript('https://connect.facebook.net/en_US/sdk.js', function () {
+                FB.init({
+                    appId: '279068716055138',
+                    version: 'v9.0' // or v2.1, v2.2, v2.3, ...
+                });
+                // get login status
+                // FB.getLoginStatus(console.log);
+                // $('#loginbutton,#feedbutton').removeAttr('disabled');
+
+                // send Server Event to FB
+                FB.api(
+                    '/351725288935559/events',
+                    'post',
+                    {
+                        "data": [
+                            {
+                                "event_name": "PageView",
+                                "event_time": Math.floor(new Date().getTime() / 1000) - 100,
+                                "user_data": {
+                                    "fbc": "fb.1.1554763741205.AbCdEfGhIjKlMnOpQrStUvWxYz1234567890",
+                                    "fbp": "fb.1.1558571054389.1098115397",
+                                    "em": "309a0a5c3e211326ae75ca18196d301a9bdbd1a882a4d2569511033da23f0abd"
+                                },
+                                "data_processing_options": [],
+                                "opt_out": false
+                            }
+                        ],
+                        // to see events in events manager's test live events tool
+                        "test_event_code": 'TEST78049',
+                        access_token: 'EAAVeIHwBJt######### FAKED ACCESS TOKEN #########a9ZBgCKb95VPv8Q3'
+                    },
+                    function (response) {
+                        if (!response || response.error) {
+                            console.log('!! Error occured !!');
+                        } else {
+                            console.log("!! FB API called successfully !!");
+                        }
+                        console.log(JSON.stringify(response));
+                    }
+                );
+            });
+        });
+    </script>
+</body>
+
+</html>

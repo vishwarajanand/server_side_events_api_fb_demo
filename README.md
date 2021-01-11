@@ -1,6 +1,6 @@
 # Demo for the Server Side event stack from Facebook
 
-Python SDK is listed [here](https://github.com/facebook/facebook-python-business-sdk) and Server side FB events API is listed [here](https://developers.facebook.com/docs/marketing-api/server-side-api).
+FB Business SDK is listed [here](https://github.com/facebook/facebook-python-business-sdk) and Server side FB events API is listed [here](https://developers.facebook.com/docs/marketing-api/server-side-api).
 
 # Steps to launch demo
 
@@ -35,3 +35,7 @@ Demo previews below:
 
 ## 3. S2S Script Sample Output
 ![S2S API call output](https://raw.githubusercontent.com/vishwarajanand/server_side_events_api_fb_demo/master/demos/s2s_script_output.png "S2S API call output")
+
+# Note:
+
+You can also try to send the events to Facebook using API inside JS directly as demo'ed in `index.html`, but it does not look to be very secure. I couldn't find a way to mask your access token. Moreover browsers who are blocking cookie based tracking can also block API based tracking.
