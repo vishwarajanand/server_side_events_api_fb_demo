@@ -4,7 +4,7 @@ from facebook_business.api import FacebookAdsApi
 from secrets_store import *
 import time
 
-FacebookAdsApi.init(access_token=access_token)
+FacebookAdsApi.init(app_id, app_secret, access_token)
 
 fields = [
 ]

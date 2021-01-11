@@ -6,9 +6,11 @@ Python SDK is listed [here](https://github.com/facebook/facebook-python-business
 
 1. Copy `secrets_store_sample.py` into `secrets_store.py`.
 
-2. Edit all variable especially `access_token`, `app_id`, `app_secret` and `pixel_id`.
+2. Edit all variable especially `pixel_id` and `test_code` - each available from pixel events manager's implementation. `app_id` and `app_secret` are needed if more APIs need to be called and can be optained from app dashboard.
 
-3. Install FB Business SDK:
+3. `access_token` has been generated from business manager system user where both pixel and app are added. Alternatively, a token from events manager can be generated too.
+
+4. Install FB Business SDK:
 
 ```
 virtualenv venv
@@ -16,7 +18,7 @@ source venv/bin/activate
 pip install facebook_business
 ```
 
-4. Run the following commands:
+5. Run the following commands:
 
 ```
 python3 s2s_demo.py
