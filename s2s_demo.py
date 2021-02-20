@@ -33,6 +33,7 @@ params = {
                 "content_type": "product"
             },
             "data_processing_options": [],
+            "action_source": "website",
             "opt_out": False
         }
     ],
